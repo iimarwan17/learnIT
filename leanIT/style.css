@@ -58,7 +58,7 @@ nav{
 .link .nav_btn:hover {
     background-color: black;
 }
-/*door icon*/
+/*terminal icon*/
 .nav_btn .ri-terminal-box-fill{
   display: none;
 }
@@ -71,7 +71,7 @@ nav{
 .nav_btn:hover .ri-terminal-box-line{
   display: none;
 }
-/*pen icon*/
+/*folder icon*/
 .nav_btn:hover .ri-folder-line{
   display: none;
 }
@@ -215,4 +215,5 @@ nav{
   height: 50px;
   background-color: var(--secondary-color);
   border-radius: 3px;
+
 }
