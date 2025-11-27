@@ -2,40 +2,57 @@
 <html lang="en">
 <head>
     <title>learIT</title>
-    <link rel="icon" type="image/gif" href="photos/computer.gif"> 
+    <link rel="icon" type="image/gif" href="computer.gif"> 
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"rel="stylesheet"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- background Circle -->
+    <div class="background-design"></div>
+    
+    <!-- Page header -->
     <nav>
+        <!-- left-side of the header bar -->
         <div class="nav_logo"><img src="photos/computer.gif" alt="logo" class="logo_icon"><a href="#">learnIT</a></div>
+        
+        <!-- middle-side of the header bar (Search bar and search button) -->
+        <div class="search-div">
+            <input class="input-bar" type="text" placeholder="Search for courses">
+            <button class="search-buton" type="submit">Search</button>
+        </div>
+
+        <!-- Right-side of the header bar -->
         <ul class="nav_links">
-            <li class="link"><a href="#">Courses</a></li>
+            <li class="link"><a href="#">Courses</a></li> <!-- href="#" is a placeholder, meaning it does not go anywhere -->
             <li class="link"><a href="#" class="nav_btn"><span class="icon_wrapper"><i class="ri-terminal-box-line"></i><i class="ri-terminal-box-fill"></i></span> Login</a></li>
             <li class="link"><a href="#" class="nav_btn"><span class="icon_wrapper"><i class="ri-folder-line"></i><i class="ri-folder-open-fill"></i></span> Sign up</a></li>
         </ul>
     </nav>
-    <section class="container">
+    
+    <!-- page body -->
+    <section class="container"> 
+        <!-- Page body left-side div -->
         <div class="content_container">
-            <h1>
+            <h1> <!-- Text header -->
                 learnIT<br>
                 <span class="heading_1">all TRACKS</span>
                 <span class="heading_2">for every developer</span>
             </h1>
-            <p>
+            <p> <!-- Course explaination text -->
                   learnIT is your gateway to practical, high-quality computer courses designed for real-world skills. Learn programming, data
                   science, cybersecurity, and more through structured lessons, hands-on projects, and expert-led content. Whether you're
                   starting your tech journey or leveling up your career, learnIT gives you clear guidance, interactive learning, and
                   industry-focused training — all at your own pace.
             </p>
-                <form>
-                    <input type="text" placeholder="Search for courses">
-                    <button type="submit">Search</button>
-                </form>
+                
         </div>
-        <div class="image_container">
-            <img src="photos/cgif.gif" alt="header1">
-            <img src="photos/c3.jpg" alt="header2">
+
+        <!-- Page Body Right-side (all image on the right side) -->
+        <div class="image_container"> 
+            <img src="cgif.gif" alt="header1">
+            <img src="Man_with_laptop_image3.PNG" alt="header2">
+           
+            <!-- Text box -->
             <div class="image_content">
                 <ul>
                     <li>Save 20% with our yearly plan!</li>
@@ -44,5 +61,7 @@
             </div>
         </div>
     </section>
+
+    
 </body>
 </html>
